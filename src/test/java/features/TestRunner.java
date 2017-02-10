@@ -9,9 +9,9 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "E:\\AjayData\\Repository\\Prep\\src\\test\\resources\\features",
+        features = "features/googleSearch.feature",
         glue = "stepDefinitions",
-        plugin = {"pretty", "html:target/cucumber"}
+        plugin = {"pretty", "html:target/cucumber-html-reports"}
 )
 public class TestRunner {
 }
